@@ -1,6 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
+  template: template0
   host: localhost
   database: sample_app_development
   username: <%= ENV["USER"] %>
@@ -12,6 +13,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
+  template: template0
   host: localhost
   database: sample_app_test
   username: <%= ENV["USER"] %>
