@@ -18,6 +18,7 @@ end
 group :development do
   gem 'annotate', '2.5.0'
   gem 'debugger', '1.2.2'
+  gem 'webrick', '1.3.1'
 end
 
 # Gems used only for assets and not required
