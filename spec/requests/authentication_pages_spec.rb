@@ -106,6 +106,23 @@ describe "Authentication" do
       end
     end
 
+    describe "as signed-in user" do
+      let(:user) { FactoryGirl.create(:user) }
+      before(:each) do
+        sign_in user
+      end
+
+      describe "visiting the new users page" do
+        before { get new_user_path }
+        specify { response.should redirect_to(root_path) }
+      end
+
+      describe "trying to create a new user" do
+        before { post users_path }
+        specify { response.should redirect_to(root_path) }
+      end
+    end
+
     describe "as non-admin user" do
       let(:user) { FactoryGirl.create(:user) }
       let(:non_admin) { FactoryGirl.create(:user) }
