@@ -1,0 +1,4 @@
+- Read an overview of Rails callbacks:
+  http://guides.rubyonrails.org/active_record_validations_callbacks.html#callbacks-overview 
+- Complete exercise 8.5.1 which separates Rspec tests' intents from the
+app's implementation details.

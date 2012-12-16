@@ -14,10 +14,6 @@
 /log/*.log
 /tmp
 
-# Ignore my files
-todo
-completed-until
-
 # Ignore system cruft
 .DS_Store
 *~
