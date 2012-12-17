@@ -6,3 +6,5 @@ app's implementation details.
 http://api.rubyonrails.org/v3.2.0/classes/ActionDispatch/Request.html
 * Watch RailsCasts on counter cache:
   http://railscasts.com/episodes/23-counter-cache-column
+* Read about the ActiveRecord query interface:
+  http://guides.rubyonrails.org/active_record_querying.html
