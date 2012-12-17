@@ -10,3 +10,11 @@ http://api.rubyonrails.org/v3.2.0/classes/ActionDispatch/Request.html
   http://guides.rubyonrails.org/active_record_querying.html
 * Read about ActiveRecord associations:
   http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_many
+
+* Complete exercise 10.5
+2. Add tests for micropost pagination.
+3. Refactor the Home page to use separate partials for the two branches of the if-else statement.
+4. Write a test to make sure delete links do not appear for microposts not created by the current user.
+5. Using partials, eliminate the duplication in the delete links from Listing 10.46 and Listing 10.47.
+6. Very long words currently break our layout, as shown in Figure 10.18. Fix this problem using the wrap helper defined in Listing 10.50. Note the use of the raw method to prevent Rails from escaping the resulting HTML, together with the sanitize method needed to prevent cross-site scripting. This code also uses the strange-looking but useful ternary operator (Box 10.1).
+7. Add a JavaScript display to the Home page to count down from 140 characters.

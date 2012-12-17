@@ -32,6 +32,10 @@ describe "Static pages" do
         end
       end
 
+      describe "should show micropost count" do
+        it { should have_content("#{user.microposts.count} microposts") }
+      end
+
     end
 
   end
