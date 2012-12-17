@@ -1,6 +1,8 @@
-- Read an overview of Rails callbacks:
+* Read an overview of Rails callbacks:
   http://guides.rubyonrails.org/active_record_validations_callbacks.html#callbacks-overview
-- Complete exercise 8.5.1 which separates Rspec tests' intents from the
+* Complete exercise 8.5.1 which separates Rspec tests' intents from the
 app's implementation details.
-- Complete exercise 9.6.7 after reading about the request object:
+* Complete exercise 9.6.7 after reading about the request object:
 http://api.rubyonrails.org/v3.2.0/classes/ActionDispatch/Request.html
+* Watch RailsCasts on counter cache:
+  http://railscasts.com/episodes/23-counter-cache-column
