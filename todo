@@ -1,26 +1,56 @@
-Learning:
+* Read:
 
-* Read an overview of Rails callbacks:
+  Read an overview of Rails callbacks:
   http://guides.rubyonrails.org/active_record_validations_callbacks.html#callbacks-overview
-* Watch RailsCasts on counter cache:
-  http://railscasts.com/episodes/23-counter-cache-column
-* Read about the ActiveRecord query interface:
+
+  Read about the ActiveRecord query interface:
   http://guides.rubyonrails.org/active_record_querying.html
-* Read about the request object:
+
+  Read about the request object:
   http://api.rubyonrails.org/v3.2.0/classes/ActionDispatch/Request.html
-* Read about ActiveRecord associations:
+
+  Read about ActiveRecord associations:
   http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_many
-* Read about Rails routing:
+
+  Read about Rails routing:
   http://guides.rubyonrails.org/routing.html
-* Watch RailsCasts on unobtrusive Javascript:
-  http://railscasts.com/episodes/205-unobtrusive-javascript
-* Read about hacking a subselect in ActiveRecord:
+
+  Read about hacking a subselect in ActiveRecord:
   http://pivotallabs.com/users/jsusser/blog/articles/567-hacking-a-subselect-in-activerecord
-* Watch the RailsLab series on scaling rails:
+
+  Read about the state machine in Rails:
+  https://www.google.com/search?q=state+machines+in+rails
+
+  Read about full text search on Heroku:
+  https://devcenter.heroku.com/articles/full-text-search
+
+* Watch:
+
   http://railslab.newrelic.com/scaling-rails
+  http://railscasts.com/episodes/206-action-mailer-in-rails-3
+  http://railscasts.com/episodes/275-how-i-test
+  http://railscasts.com/episodes/23-counter-cache-column
+  http://railscasts.com/episodes/205-unobtrusive-javascript
+  http://railscasts.com/episodes/274-remember-me-reset-password
+  http://railscasts.com/episodes/87-generating-rss-feeds
+  http://railscasts.com/episodes/37-simple-search-form
+  http://railscasts.com/episodes/120-thinking-sphinx
+  https://peepcode.com/
 
-Doing:
+* Do:
 
-* Complete exercise 8.5.1 that separates Rspec tests' intents from the app's implementation details
-* Complete exercise 9.6.7 that inserts some request object methods into the site layout
-* Complete exercise 10.5.7 that adds to the micropost composition form a JS count-down from 140 characters
+  Complete exercise 8.5.1 that separates Rspec tests' intents from the app's implementation details
+  Complete exercise 9.6.7 that inserts some request object methods into the site layout
+  Complete exercise 10.5.7 that adds to the micropost composition form a JS count-down from 140 characters
+
+* Tools:
+
+  https://scoutapp.com/
+  http://newrelic.com/
+
+* Books:
+
+  Beginning Ruby: From Novice to Professional
+  The Well-Grounded Rubyist
+  The Ruby Way, 2nd Edition
+  The Rails 3 Way, 2nd Edition
