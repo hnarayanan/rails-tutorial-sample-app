@@ -36,7 +36,9 @@ describe "User pages" do
       it { should_not have_link('delete') }
 
       describe "as an admin user" do
+
         let(:admin) { FactoryGirl.create(:admin) }
+
         before do
           sign_in admin
           visit users_path
@@ -138,7 +140,9 @@ describe "User pages" do
   end
 
   describe "edit" do
+
     let(:user) { FactoryGirl.create(:user) }
+
     before do
       sign_in user
       visit edit_user_path(user)
@@ -157,8 +161,10 @@ describe "User pages" do
     end
 
     describe "with valid information" do
+
       let(:new_name)  { "New Name" }
       let(:new_email) { "new@example.com" }
+
       before do
         fill_in "Name",             with: new_name
         fill_in "Email",            with: new_email
@@ -172,6 +178,36 @@ describe "User pages" do
       it { should have_link('Sign out', href: signout_path) }
       specify { user.reload.name.should  == new_name }
       specify { user.reload.email.should == new_email }
+    end
+  end
+
+ describe "following/followers" do
+
+    let(:user) { FactoryGirl.create(:user) }
+    let(:other_user) { FactoryGirl.create(:user) }
+
+    before { user.follow!(other_user) }
+
+    describe "followed users" do
+      before do
+        sign_in user
+        visit following_user_path(user)
+      end
+
+      it { should have_selector('title', text: full_title('Following')) }
+      it { should have_selector('h3', text: 'Following') }
+      it { should have_link(other_user.name, href: user_path(other_user)) }
+    end
+
+    describe "followers" do
+      before do
+        sign_in other_user
+        visit followers_user_path(other_user)
+      end
+
+      it { should have_selector('title', text: full_title('Followers')) }
+      it { should have_selector('h3', text: 'Followers') }
+      it { should have_link(user.name, href: user_path(user)) }
     end
   end
 
