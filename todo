@@ -14,6 +14,10 @@ Learning:
   http://guides.rubyonrails.org/routing.html
 * Watch RailsCasts on unobtrusive Javascript:
   http://railscasts.com/episodes/205-unobtrusive-javascript
+* Read about hacking a subselect in ActiveRecord:
+  http://pivotallabs.com/users/jsusser/blog/articles/567-hacking-a-subselect-in-activerecord
+* Watch the RailsLab series on scaling rails:
+  http://railslab.newrelic.com/scaling-rails
 
 Doing:
 
