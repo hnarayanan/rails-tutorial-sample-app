@@ -12,6 +12,8 @@ Learning:
   http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_many
 * Read about Rails routing:
   http://guides.rubyonrails.org/routing.html
+* Watch RailsCasts on unobtrusive Javascript:
+  http://railscasts.com/episodes/205-unobtrusive-javascript
 
 Doing:
 
