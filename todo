@@ -10,6 +10,8 @@ Learning:
   http://api.rubyonrails.org/v3.2.0/classes/ActionDispatch/Request.html
 * Read about ActiveRecord associations:
   http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_many
+* Read about Rails routing:
+  http://guides.rubyonrails.org/routing.html
 
 Doing:
 
