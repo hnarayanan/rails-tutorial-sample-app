@@ -14,9 +14,6 @@
 /log/*.log
 /tmp
 
-# Ignore generated Gemfile
-Gemfile.lock
-
 # Ignore system cruft
 .DS_Store
 *~
